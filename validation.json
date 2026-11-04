@@ -1,0 +1,47 @@
+[
+  {
+    "text": "📦 수령인은 문채린님입니다.\n부재중이면 064-362-8104로 연락하고 문채린님에게도 알려 주세요.",
+    "entities": [
+      { "start": 7, "end": 10, "type": "NAME" },
+      { "start": 22, "end": 34, "type": "PHONE" },
+      { "start": 41, "end": 44, "type": "NAME" }
+    ]
+  },
+  {
+    "text": "주문번호는 4937이고, 연락처 뒷자리도 4937입니다.",
+    "entities": [{ "start": 23, "end": 27, "type": "PHONE" }]
+  },
+  {
+    "text": "보내는 곳은 서울 성북구 정릉동 12번지, 받는 곳은 경기 고양시 덕양구 행신동 305동 902호입니다.",
+    "entities": [
+      { "start": 7, "end": 22, "type": "ADDRESS" },
+      { "start": 30, "end": 54, "type": "ADDRESS" }
+    ]
+  },
+  {
+    "text": "환불 계좌는 4120-381-672, 결제 카드는 4120-0000-****-0042입니다. 유효기간은 09/28입니다.",
+    "entities": [
+      { "start": 7, "end": 19, "type": "ACCOUNT" },
+      { "start": 28, "end": 47, "type": "CARD" }
+    ]
+  },
+  {
+    "text": "주민등록번호는 000430-*******로 표시돼요. 주문코드는 000430입니다.",
+    "entities": [{ "start": 8, "end": 22, "type": "RRN" }]
+  },
+  {
+    "text": "회신은 (support.kr+audit@example.org)로 보내고, 화면에 표시된 이전 주소 he***@example.net도 확인해 줘.",
+    "entities": [
+      { "start": 5, "end": 33, "type": "EMAIL" },
+      { "start": 55, "end": 72, "type": "EMAIL" }
+    ]
+  },
+  {
+    "text": "보라에게 먼저 알려 줘. 첨부 그림의 오른쪽을 보라.",
+    "entities": [{ "start": 0, "end": 2, "type": "NAME" }]
+  },
+  {
+    "text": "서울 행사 접수번호는 021-305-7428이고, 확인 코드는 031204입니다. 이름과 이메일을 입력해 주세요.",
+    "entities": []
+  }
+]
