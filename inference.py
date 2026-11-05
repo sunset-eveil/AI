@@ -1,7 +1,11 @@
+from pathlib import Path
+
 import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
-model_path = "./models/Eveil-AI"
+print("old")
+
+model_path = Path(__file__).resolve().parent / "models" / "Eveil-AI-v2"
 
 tokenizer = AutoTokenizer.from_pretrained(
     model_path,

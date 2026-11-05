@@ -2,6 +2,7 @@ import json
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from threading import Lock
 
+# from new_inference import detect_entities
 from inference import detect_entities
 
 inference_lock = Lock()
@@ -70,7 +71,7 @@ class PiiHandler(BaseHTTPRequestHandler):
 
         self.send_json(200, {
             "request_id": request_id,
-            "model_version": "eveil-ai-v1",
+            "model_version": "eveil-ai-v2",
             "offset_unit": "unicode_codepoint",
             "entities": entities,
         })

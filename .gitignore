@@ -9,3 +9,4 @@ request-test.json
 validation_result.json
 validation_details.json
 *.log
+new_inference.py
